@@ -1,4 +1,5 @@
 { self, ... }: {
+
   keymaps = [
     {
       action = "<cmd>bd<CR>";
@@ -30,7 +31,6 @@
       mode = [ "v" ];
       options.silent = true;
     }
-
     {
       action = "<Esc>";
       key = "jk";
@@ -50,4 +50,5 @@
       options.silent = true;
     }
   ];
+
 }
