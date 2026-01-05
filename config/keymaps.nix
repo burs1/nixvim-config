@@ -22,13 +22,13 @@
     {
       action = "<gv";
       key = "<Tab>";
-      mode = [ "v" ];
+      mode = [ "v" "x" ];
       options.silent = true;
     }
     {
       action = ">gv";
       key = "<Tab>";
-      mode = [ "v" ];
+      mode = [ "v" "x" ];
       options.silent = true;
     }
     {
@@ -50,5 +50,4 @@
       options.silent = true;
     }
   ];
-
 }
