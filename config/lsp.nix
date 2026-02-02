@@ -25,21 +25,50 @@ in
     };
 
     servers = {
+      # Spell checker
       harper_ls.enable = true;
+
+      # Type script
       ts_ls.enable = true;
+
+      # Lua
       lua_ls.enable = true;
+
+      # Rust
       rust_analyzer = {
         enable = true;
         installCargo = true;
         installRustc = true;
       };
-      clangd.enable = true;
+
+      # C / C++
+      clangd = {
+        enable = true;
+        settings = {
+          cmd = [
+            "clangd"
+            "--background-index"
+          ];
+          root_markers = [
+            "compile_commands.json"
+            "compile_flags.txt"
+          ];
+          filetypes = [
+            "c"
+            "cpp"
+          ];
+        };
+      };
+
+      # Python
       pyright.enable = true;
+
+      # Svelte
       svelte.enable = true;
     };
   };
 
-  # Автодополнение (nvim-cmp)
+  # Автодополнение
   plugins.cmp = {
     enable = true;
     autoEnableSources = true;
