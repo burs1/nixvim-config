@@ -6,7 +6,6 @@ in
   # Настройки LSP
   plugins.lsp = {
     enable = true;
-    inlayHints = true;
 
     # Привязки клавиш для работы gd, hover и прочего
     keymaps = {

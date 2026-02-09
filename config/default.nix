@@ -11,6 +11,5 @@
   plugins = {
     oil.enable = true; # File browser
     gitsigns.enable = true; # Git signs
-    gitblame.enable = true; # Inlay git blame
   };
 }
