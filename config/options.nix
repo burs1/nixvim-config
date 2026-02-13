@@ -1,4 +1,5 @@
 { self, ... }: {
+  clipboard.register = "unnamedplus";
 
   extraConfigLuaPre = ''
     vim.g.mapleader = " "

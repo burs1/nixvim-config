@@ -1,11 +1,12 @@
 {
   imports = [
+    ./ai.nix
     ./appearance.nix
     ./bufferline.nix
-    ./telescope.nix
-    ./lsp.nix
     ./keymaps.nix
+    ./lsp.nix
     ./options.nix
+    ./telescope.nix
   ];
 
   plugins = {
