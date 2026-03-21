@@ -1,7 +1,7 @@
 { self, ... }:
 
 {
-  colorschemes.gruvbox.enable = true;
+  colorschemes.ayu.enable = true;
 
   plugins = {
     transparent.enable = true;
