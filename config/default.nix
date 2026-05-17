@@ -7,6 +7,7 @@
     ./lsp.nix
     ./options.nix
     ./telescope.nix
+    ./vimtex.nix
   ];
 
   plugins = {

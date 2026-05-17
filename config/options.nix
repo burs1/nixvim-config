@@ -32,5 +32,6 @@
     timeoutlen = 100;
     undofile = true;
     updatetime = 250;
+    conceallevel = 2;
   };
 }
