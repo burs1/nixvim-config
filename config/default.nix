@@ -3,6 +3,7 @@
     ./ai.nix
     ./appearance.nix
     ./bufferline.nix
+    ./godot.nix
     ./keymaps.nix
     ./lsp.nix
     ./options.nix

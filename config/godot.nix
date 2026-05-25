@@ -1,0 +1,5 @@
+{ ... }:
+
+{
+  plugins.godot.enable = true;
+}
