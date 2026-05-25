@@ -49,5 +49,11 @@
       mode = [ "n" ];
       options.silent = true;
     }
+    {
+      action = "<cmd>lua vim.diagnostic.open_float()<CR>";
+      key = "<leader>d";
+      mode = [ "n" ];
+      options.silent = true;
+    }
   ];
 }

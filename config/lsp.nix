@@ -64,6 +64,15 @@ in
 
       # Svelte
       svelte.enable = true;
+
+      gdscript = {
+        enable = true;
+        package = null;
+
+        extraOptions = {
+          flags = {};
+        };
+      };
     };
   };
 
