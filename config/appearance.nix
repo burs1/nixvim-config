@@ -1,5 +1,5 @@
 { self, ... }:
 
 {
-  colorschemes.ayu.enable = true;
+  colorschemes.gruvbox-material.enable = true;
 }
