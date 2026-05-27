@@ -9,6 +9,7 @@
 
   opts = {
     autoread = true;
+    swapfile = false;
     belloff = "";
     breakindent = true;
     cmdheight = 0;

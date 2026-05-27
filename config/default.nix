@@ -1,6 +1,5 @@
 {
   imports = [
-    ./ai.nix
     ./appearance.nix
     ./bufferline.nix
     ./godot.nix
